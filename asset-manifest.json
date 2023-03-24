@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/3-column-preview-card-component/static/css/main.073c9b0a.css",
+    "main.js": "/3-column-preview-card-component/static/js/main.fae7408c.js",
+    "static/js/787.398887d8.chunk.js": "/3-column-preview-card-component/static/js/787.398887d8.chunk.js",
+    "static/media/logo.svg": "/3-column-preview-card-component/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/luxury.svg": "/3-column-preview-card-component/static/media/luxury.7d6e1aefdc39c4742fbb039e7f97a503.svg",
+    "static/media/suvs.svg": "/3-column-preview-card-component/static/media/suvs.058b664c311101933ebda84111ddd9b6.svg",
+    "static/media/sedans.svg": "/3-column-preview-card-component/static/media/sedans.e794502801c486bcffc3513f6f03141e.svg",
+    "index.html": "/3-column-preview-card-component/index.html",
+    "main.073c9b0a.css.map": "/3-column-preview-card-component/static/css/main.073c9b0a.css.map",
+    "main.fae7408c.js.map": "/3-column-preview-card-component/static/js/main.fae7408c.js.map",
+    "787.398887d8.chunk.js.map": "/3-column-preview-card-component/static/js/787.398887d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fae7408c.js"
+  ]
+}
