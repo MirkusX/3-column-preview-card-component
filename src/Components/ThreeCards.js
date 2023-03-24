@@ -3,6 +3,7 @@ import {
   CardDiv,
   StyledButton,
   StyledDiv,
+  StyledP,
   StyledSection,
 } from "./StyledComponents";
 
@@ -15,7 +16,7 @@ export const ThreeCards = () => {
             <CardDiv key={index}>
               <img src={item.icon} />
               <h1>{item.title}</h1>
-              <p>{item.desc}</p>
+              <StyledP>{item.desc}</StyledP>
               <StyledButton>Learn More</StyledButton>
             </CardDiv>
           );
