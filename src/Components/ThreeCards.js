@@ -1,9 +1,18 @@
+import { cardInfo } from "./cardInfo";
+
 export const ThreeCards = () => {
   return (
     <section>
-      <div>
-        <h1>three cards</h1>
-      </div>
+      {cardInfo.map((item, index) => {
+        return (
+          <div>
+            <img src={item.icon} />
+            <h1>{item.title}</h1>
+            <p>{item.desc}</p>
+            <button>Learn More</button>
+          </div>
+        );
+      })}
     </section>
   );
 };
