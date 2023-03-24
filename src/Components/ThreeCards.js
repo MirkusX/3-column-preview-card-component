@@ -1,5 +1,10 @@
 import { cardInfo } from "./cardInfo";
-import { StyledDiv, StyledSection } from "./StyledComponents";
+import {
+  CardDiv,
+  StyledButton,
+  StyledDiv,
+  StyledSection,
+} from "./StyledComponents";
 
 export const ThreeCards = () => {
   return (
@@ -7,12 +12,12 @@ export const ThreeCards = () => {
       <StyledDiv>
         {cardInfo.map((item, index) => {
           return (
-            <div key={index} style={{ backgroundColor: item.background }}>
+            <CardDiv key={index}>
               <img src={item.icon} />
               <h1>{item.title}</h1>
               <p>{item.desc}</p>
-              <button>Learn More</button>
-            </div>
+              <StyledButton>Learn More</StyledButton>
+            </CardDiv>
           );
         })}
       </StyledDiv>
